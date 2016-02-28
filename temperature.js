@@ -46,9 +46,9 @@ function calculate() {
     }
     
     
-    converted.innerHTML = result;
+    converted = alert(result);
   }
   else {
-    converted.innerHTML = "ERROR! Prueba con algo como esto '-4.2C' ";
+    converted = alert("ERROR! Prueba con algo como esto '-4.2C' ");
   }
 }
