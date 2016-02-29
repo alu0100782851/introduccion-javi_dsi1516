@@ -5,16 +5,25 @@
      <title>JavaScript Temperature Converter</title>
      <link href="normalize.css" rel="stylesheet" type="text/css">
      <link href="global.css" rel="stylesheet" type="text/css">
+     
+     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+     
      <script type="text/javascript" src="temperature.js"></script>
   </head>
   
   <body>
     <h1>Temperature Converter</h1>
     <div>
-      <h2>Introduzca la temperatura en fahrenheit o celcius</h2>
-      <input id="original" autofocus onchange="calculate();" placeholder="32F" size="50">
-      <p>Converted Temperature:
-      <span class="output" id="converted"></span>
+      <form id="formulario" onsubmit="return calculate();">
+          <input id="original" 
+                 placeholder="32F" 
+                 size="50"
+                 title = "Introduzca la temperatura en fahrenheit o celcius"
+                 pattern="(^[-+]?\d+(?:\.\d*)?)(?:[eE]?([-+]?\d+))?\s*((f(a(h(r(e(n(h(e(i(t)?)?)?)?)?)?)?)?)?)|(c(e(l(s(i(u(s)?)?)?)?)?)?))\s*$"
+          />
+      </form>
+      <!--<p>Converted Temperature:
+      <span class="output" id="converted"></span>-->
       </p>
     </div>
     
