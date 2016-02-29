@@ -1,23 +1,29 @@
-# ETSII ULL Grado de Informatica
+**\-Practica 2 de Desarrollo de Sistemas Informáticos\-**
+=======================
 
-## Práctica: Conversor en JavaScript de grados Celsius a Farenheit y viceversa
+[Link al campus de la asignatura] (https://campusvirtual.ull.es/1516/course/view.php?id=144)
 
-### Que aprendemos
+Componentes:
+> -Javier Pestano Ron
 
-* HTML básico
-* JavaScript básico
-* Expresiones Regulares
-* Un poquito de CSS
-* Uso de Emmet (instale el plugin para su editor)
-* Uso de Mocha y Chai 
-* Uso de Gulp
+[Página personal] (http://alu0100505009.github.io/)
 
-### Despliegue en github.io
+[Repositorio Personal] (https://github.com/alu0100505009/introduccion-javi_dsi1516)
 
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
-* [http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/](http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/)
+[Página de la práctica] (http://ull-esit-gradoii-dsi.github.io/introduccion-javi_dsi1516)
 
-### Ejecutar las pruebas
+> -Moisés Yanes Carballo
 
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html)
-* [http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/tests/index.html](http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/tests/index.html)
+[Página personal] (http://alu0100782851.github.io/)
+
+[Repositorio Personal] (https://github.com/alu0100782851/introduccion-javi_dsi1516)
+
+[Página de la práctica] (http://ull-esit-gradoii-dsi.github.io/tintroduccion-javi_dsi1516)
+
+> -Alexander Cole Mora
+
+[Página personal] (http://alu0100767421.github.io/)
+
+[Repositorio Personal] (https://github.com/alu0100767421/introduccion-javi_dsi1516)
+
+[Página de la práctica] (http://ull-esit-gradoii-dsi.github.io/introduccion-javi_dsi1516)
