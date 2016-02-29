@@ -1,40 +1,175 @@
 body
 {
         background-color: #0db4ba; 
+}
+
+/* MENU DE NAVEGACION */
+* {
+        margin: 0;
+        padding: 0;
+}
+
+#navegador{
+        width: 70%;
+        height: 50px;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #122b23;    /* fondo menu */
+        margin: auto;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+}
+
+#apartado1{
+        width: 295px;
+}
+
+nav ul{
+        list-style: none;
+}
+
+nav > ul{
+        position: relative;
+        display: table;
+        width: 100%;
+}
+
+nav > ul li{
+        display: table-cell;    /* Poner elementos uno al lado del otro */
+}
+
+/* Submenu */
+nav > ul > li:hover > ul{       /* Cuando pasas el mouse por encima, se muestra el submenu*/
+        display: block;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        
+}
+
+nav ul li ul{                   /* Propiedades del submenu */ 
+        display: block;
+        position: absolute;
+        background: #122b23;    /* Fondo submenu */
+        width: auto;
+}
+
+nav ul li #paginas li {         /* Establecer ancho de los li del submenu de las paginas */ 
+        width: 94px;
+}
+
+nav ul li #repos li {           /* Establecer ancho de los li del submenu de repositorios */ 
+        width: 104px;
+}
+
+nav > ul > li > ul{             /* Ocultar los subapartados del menu */
+        display: none; 
+}
+/* Fin Submenu */
+
+nav > ul li a{                  /* Dar formato a los enlaces*/
+        color: white;
+        display: block;
+        line-height: 25px;
+        padding: 12.5px;
+        position: relative;
         text-align: center;
+        text-decoration: none;
+}
+
+nav > ul li a:hover{
+        background: white;      /* Color de fondo que adquiere al pasar el mouse */
+        color: #3a183a;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+}
+
+
+
+/* IMAGENES Y CONTENIDO CENTRAL DE LA PAGINA */
+.contenido{
+        margin-top:50px;
+        text-align:center;
+}
+
+#imagen1{
+        width: 50px;
+        height: 150px;  
+        margin-right: 150px;
+        display: inline-block;
+        
+}
+
+#imagen2{
+        width: 50px;
+        height: 150px;  
+        margin-left: 150px;
+        display: inline-block;
+}
+
+#texto{
+       display: inline-block;    
+}
+
+#original{
+        text-align: right;      
+        border: none;
+        font-size:large; 
+        width: 240px;
 }
 
 #converted {                      /* Salida */
-        color: white; 
+        color: red; 
         font-weight: bold; 
         font-size:large; 
         margin-left: 10px;
 }    
 
-input{
-        text-align: right;       /* Alinear entrada a la derecha  */
-        border: none;
-        font-size:large; 
-        width: 240px;
-        margin-bottom: 30px;
-}
-
 h1 {
         font-size: 70px;
         font-family: 'Lobster', cursive;
         color: white;
-    
-        display:inline-block;
+}
+
+#texto p{
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 30px;
+}
+
+
+/* PIE DE PAGINA */
+.ayuda{
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 150px;
+        display: inline-block;   
+        
+}
+
+.equivalencias{
+        text-align: center;
+        position: absolute;
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 250px;
 }
 
 h2{
         font-size: 20px;
-        font-family: "Arial";
+        font-family: 'Montserrat', sans-serif;
         color: black;
 }
 
-p{
-        font-size: 17px;
-        font-weight: bold;
+.ayuda p{
+        margin-top: 10px;
+        line-height: 22px;
+        font-family: Arial;
+        color: white;
+        
+}
 
+.equivalencias p{
+        margin-top: 10px;
+        line-height: 22px;
+        font-family: Arial;
+        color: white;
 }
