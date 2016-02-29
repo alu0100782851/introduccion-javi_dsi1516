@@ -18,7 +18,7 @@ Componentes:
 
 [Repositorio Personal] (https://github.com/alu0100782851/introduccion-javi_dsi1516)
 
-[Página de la práctica] (http://ull-esit-gradoii-dsi.github.io/tintroduccion-javi_dsi1516)
+[Página de la práctica] (http://ull-esit-gradoii-dsi.github.io/introduccion-javi_dsi1516)
 
 > -Alexander Cole Mora
 
