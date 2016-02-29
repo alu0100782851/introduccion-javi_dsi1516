@@ -5,7 +5,7 @@
      <title>JavaScript Temperature Converter</title>
      <link href="normalize.css" rel="stylesheet" type="text/css">
      <link href="global.css" rel="stylesheet" type="text/css">
-     
+     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
      <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
      
      <script type="text/javascript" src="temperature.js"></script>
@@ -14,47 +14,50 @@
   <body>
     <div id="navegador">
       <nav>
-      <ul>
-        <li>Páginas Personales
-          <ul>
-            <li><a href="http://alu0100767421.github.io">Alexander</a></li>
-            <li><a href="http://alu0100505009.github.io">Javier</a></li>
-            <li><a href="http://alu0100782851.github.io">Moisés</a></li>
-          </ul>
-        </li>
-        
-        <li><a href="https://github.com/ULL-ESIT-GRADOII-DSI/introduccion-javi_dsi1516">Repositorio de la organización</a></li>
-        <li>Repositorios personales
-          <ul>
-            <li><a href="https://github.com/alu0100767421/introduccion-javi_dsi1516">Alexander</a></li>
-            <li><a href="https://github.com/alu0100505009/introduccion-javi_dsi1516">Javier</a></li>
-            <li><a href="https://github.com/alu0100782851/introduccion-javi_dsi1516">Moisés</a></li>
-          </ul>
-        </li>
-      </ul>
+        <ul>
+          <li id="apartado1"><a href="#">Páginas Personales</a>
+            <ul id="paginas">
+              <li><a href="http://alu0100767421.github.io">Alexander</a></li>
+              <li><a href="http://alu0100505009.github.io">Javier</a></li>
+              <li><a href="http://alu0100782851.github.io">Moisés</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="https://github.com/ULL-ESIT-GRADOII-DSI/introduccion-javi_dsi1516">Repositorio de la organización</a></li>
+          <li><a href="#">Repositorios personales</a>
+            <ul id="repos">
+              <li><a href="https://github.com/alu0100767421/introduccion-javi_dsi1516">Alexander</a></li>
+              <li><a href="https://github.com/alu0100505009/introduccion-javi_dsi1516">Javier</a></li>
+              <li><a href="https://github.com/alu0100782851/introduccion-javi_dsi1516">Moisés</a></li>
+            </ul>
+          </li>
+        </ul>
       </nav>
     </div>
    
     
     <div class="contenido">
-      <img src="images/hot.png"></img>
-      <h1>Temperature Converter</h1>
-      <form id="formulario" onsubmit="return calculate();">
-          <input id="original" 
-                 placeholder="32F" 
-                 size="50"
-                 title = "Introduzca la temperatura en fahrenheit o celcius"
-                 pattern="(^(\s)*[-+]?\d+(?:\.\d*)?)(?:[eE]?([-+]?\d+))?\s*((f(a(h(r(e(n(h(e(i(t)?)?)?)?)?)?)?)?)?)|(c(e(l(s(i(u(s)?)?)?)?)?)?))\s*$"
-          />
-      </form>
-      <img src="images/hot.png"></img>
-      <p>Converted Temperature:
+      <img id="imagen1" src="images/hot.png"></img>
+      <div id="texto">
+        <h1>Temperature Converter</h1>
+        <form id="formulario" onsubmit="return calculate();">
+            <input id="original" 
+                   placeholder="32F" 
+                   size="50"
+                   title = "Introduzca la temperatura en fahrenheit o celcius"
+                   pattern="(^(\s)*[-+]?\d+(?:\.\d*)?)(?:[eE]?([-+]?\d+))?\s*((f(a(h(r(e(n(h(e(i(t)?)?)?)?)?)?)?)?)?)|(c(e(l(s(i(u(s)?)?)?)?)?)?))\s*$"
+            />
+        </form>
+        <p>Converted Temperature:
         <span class="output" id="converted"></span>
-      </p>
+        </p>
+      </div>
+      
+      <img id="imagen2" src="images/hot.png"></img>
     </div>
     
     <div class="ayuda">
-      <h2>Ayuda</h2>
+      <h2>Ayuda</h2><hr>
       <p>
         Se puede introducir cualquier prefijo de la cadena Fahrenheit y Celcius.<br>
         Se puede introducir espacios antes, en medio o al final.Ejemplo: "4fah" "4 ce"<br>
@@ -64,7 +67,7 @@
     </div>
     
     <div class="equivalencias">
-      <h2>Equivalencia</h2>
+      <h2>Equivalencia</h2><hr>
       <p>
         1 fahrenheit son -17.22 celcius<br>
         1 celcius son 33.8 fahrenheit<br>
